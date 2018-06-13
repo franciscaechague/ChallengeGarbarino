@@ -35,7 +35,13 @@
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   font-weight: 100;
-  color: #a7a9ac;
+  color: #707070;
+}
+
+select:focus, option:focus, input:focus {
+  outline-color: transparent;
+  outline-style: none;
+  outline-width: 0;
 }
 
 .HeaderSearchBar input::placeholder {
