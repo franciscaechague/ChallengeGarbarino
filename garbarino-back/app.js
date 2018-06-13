@@ -3,7 +3,7 @@ const app = express();
 const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
 
-const getAllProducts = function() {
+const getAllProducts = function(callback) {
     MongoClient.connect('mongodb://localhost:27017/ChallengeGarbarino', function (err, client) {
         if (err) throw err;
         console.log("Connected successfully to mongo server");
@@ -16,7 +16,7 @@ const getAllProducts = function() {
 
         db.collection('products').find().toArray(function (err, result) {
             if (err) throw err;
-            console.log(result);
+            callback(result);
         })
     });
 };
@@ -58,8 +58,8 @@ const insertDocuments = function(db, callback) {
     });
 };
 
-app.get('/', (req, res) => res.send(getAllProducts())
-)
+app.get('/', (req, res) => getAllProducts(res.send))
+
 
 app.listen(3000, () => console.log('Example app listening on port 3000!')
 )
