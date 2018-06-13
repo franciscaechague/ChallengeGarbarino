@@ -1,0 +1,43 @@
+.HeaderContainer {
+  width: 100%;
+  height: 15vh;
+  background-color: #cf0c1d;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.HeaderLogo{
+  margin: 1em;
+  width: 15em;
+}
+
+.HeaderSearchBar {
+  width: 30em;
+  height: 2.5em;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.HeaderSearchBar img {
+  margin: 0.5em;
+  width: 1.2em;
+  height: auto;
+}
+
+.HeaderSearchBar input {
+  width: 90%;
+  height: 80%;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+  color: #C7C7C7;
+}
+
+.HeaderSearchBar input:placeholder {
+  color: #C7C7C7;
+}
