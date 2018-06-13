@@ -1,10 +1,9 @@
 .HeaderContainer {
   width: 100%;
-  height: 15vh;
+  height: 8vh;
   background-color: #cf0c1d;
   display: flex;
-  flex-flow: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -14,6 +13,7 @@
 }
 
 .HeaderSearchBar {
+  margin: 1em;
   width: 30em;
   height: 2.5em;
   background-color: white;
@@ -35,9 +35,9 @@
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   font-weight: 100;
-  color: #C7C7C7;
+  color: #a7a9ac;
 }
 
-.HeaderSearchBar input:placeholder {
+.HeaderSearchBar input::placeholder {
   color: #C7C7C7;
 }

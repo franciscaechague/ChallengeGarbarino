@@ -1,0 +1,28 @@
+.SearchBarContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Categoria {
+  margin: 2em 1.5em;
+  width: 5em;
+  height: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7em;
+  background-color: #f1f2f2;
+  transition: 0.2s;
+}
+
+.Categoria:hover {
+  background-color: #d5d6d8;
+}
+
+.Categoria img {
+  width: 3em;
+  height: auto;
+  max-height: 3.1em;
+}
