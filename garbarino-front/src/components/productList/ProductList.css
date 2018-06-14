@@ -30,6 +30,11 @@
   transition: 0.2s;
 }
 
+.AddProductCard:hover {
+  cursor: pointer;
+  background: #f1f2f2;
+}
+
 .AddProductCard img {
   width: 4em;
 }
