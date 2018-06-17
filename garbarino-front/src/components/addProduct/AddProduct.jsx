@@ -1,5 +1,7 @@
 import React from 'react';
+// import addProduct from
 import './AddProduct.css';
+
 
 const data = [
   {
@@ -30,9 +32,16 @@ class AddProduct extends React.Component {
       price: '',
       list_price: '',
       brand: '',
-      category_id: ''
+      category_id: '',
+      value: ''
     };
+    this.addProduct = this.addProduct.bind(this);
   }
+
+  addProduct = (event) => {
+    this.setState({ value: this.element.value });
+    console.log(this.state.value);
+  };
 
   render() {
     return (
@@ -47,11 +56,12 @@ class AddProduct extends React.Component {
                   type="text"
                   placeholder={input.name}
                   name={input.id}
+                  value=''
                 />
               </div>
             )}
             <div className="ButtonContainer">
-              <button type="submit" value="Add">
+              <button type="submit" value="Submit" onSubmit={this.addProduct}>
                 <p>Agregar</p>
                 <img src="/img/add-product.svg" alt="agregar"/>
               </button>
