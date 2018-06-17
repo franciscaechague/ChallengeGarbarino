@@ -6,7 +6,7 @@ const ProductList = ({ productList }) => (
   <div className="ProductListContainer">
     <div className="ProductListCardContainer">
       {productList.map(product =>
-        <ProductItem product={product} />
+        <ProductItem key={`${product.name}_item`} product={product} />
       )}
       <div className="AddProductCard">
         <img src="/img/add-product.svg" alt=""/>

@@ -73,7 +73,7 @@ const insertDocuments = function (db) {
   });
 };
 
-app.get('/', (req, res) => getAllProducts().then(result => res.send(result)));
+app.get('/getAllProducts', (req, res) => getAllProducts().then(result => res.send(result)));
 
 app.post('/addProduct', (req, res) => addNewProduct(req.body).then(result => res.send(result)));
 
