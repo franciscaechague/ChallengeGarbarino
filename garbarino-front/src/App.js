@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './components/header/Header';
 import SearchBar from './components/searchBar/SearchBar';
-import ProductListContainer from './components/productList/ProductListContainer';
+import ProductList from "./components/productList/ProductList";
+import response from './components/FakeData';
+// import ProductListContainer from './components/productList/ProductListContainer';
 
 class App extends Component {
   render() {
@@ -10,7 +12,8 @@ class App extends Component {
       <div className="App">
         <Header />
         <SearchBar />
-        <ProductListContainer />
+        <ProductList productList={response} />
+        {/*<ProductListContainer />*/}
       </div>
     );
   }

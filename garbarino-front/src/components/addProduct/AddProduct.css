@@ -1,0 +1,97 @@
+.ModalContainer {
+  border-radius: 1em;
+}
+
+.ModalContainer h4 {
+  margin: 1em;
+  font-family: 'Roboto', sans-serif;
+  color: #cf0c1d;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  font-weight: 100;
+}
+
+.ModalFormContainer form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.ModalInputContainer {
+  padding: 1em;
+  width: 40%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.ModalInputContainer p {
+  width: 90%;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+  color: #707070;
+}
+
+.ModalInputContainer input {
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid #C7C7C7;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+  color: #707070;
+  transition: 0.2s;
+}
+
+.ModalInputContainer input:focus {
+  border-bottom: 1px solid #cf0c1d;
+}
+
+.ModalInputContainer input::placeholder {
+  color: #C7C7C7;
+}
+
+.ButtonContainer {
+  padding: 1em;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ButtonContainer button {
+  margin: 1em 1em 0 1em;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1em;
+  background-color: #f1f2f2;
+  border-radius: 4em;
+  border: none;
+  transition: 0.2s;
+}
+
+.ButtonContainer button:hover {
+  cursor: pointer;
+  background-color: #C7C7C7;
+}
+
+.ButtonContainer img {
+  width: 3em;
+  padding: 1em 0 1em 1em;
+}
+
+.ButtonContainer p {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #cf0c1d;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 100;
+}
+
+
