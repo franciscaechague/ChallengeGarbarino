@@ -14,7 +14,7 @@ export const getAllProducts = () =>
 
 export const addProduct = (newProduct) => {
   const params = new URLSearchParams();
-  params.append('product', newProduct)
+  params.append('product', JSON.stringify(newProduct));
   return axiosInstance.post('/addProduct', params);
 };
 

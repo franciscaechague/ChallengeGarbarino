@@ -8,7 +8,7 @@ const bodyParser= require('body-parser');
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.use(cors({
-  origin: 'http://localhost:3333',
+  origin: 'http://localhost:3001',
   credentials: true
 }));
 
@@ -34,9 +34,11 @@ const getAllProducts = () => {
   });
 };
 
-const addNewProduct = (product) => {
+const addNewProduct = (request) => {
+  console.log(request);
+  const req = JSON.parse(request.product);
   return new Promise((resolve, reject) => {
-    db.collection('products').save(product, (err, res) => {
+    db.collection('products').save(req, (err, res) => {
       if (err) return reject(err);
       resolve(res);
       console.log('saved to database');
