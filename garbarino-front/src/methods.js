@@ -13,7 +13,8 @@ export const getAllProducts = () =>
   });
 
 export const addProduct = (newProduct) => {
-  const product = newProduct;
-  return axiosInstance.post('/addProduct', product);
+  const params = new URLSearchParams();
+  params.append('product', newProduct)
+  return axiosInstance.post('/addProduct', params);
 };
 

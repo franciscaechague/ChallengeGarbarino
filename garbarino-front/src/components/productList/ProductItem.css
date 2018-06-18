@@ -1,6 +1,7 @@
 .ProductItemContainer {
   margin: 1em;
   height: auto;
+  max-height: 25em;
   padding: 1em;
   background-color: white;
   border-radius: 0.2em;
@@ -15,14 +16,19 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
 }
 
-.ProductItemContainer h4 {
+.ProductItemContainer h3 {
   font-size: 1em;
   font-weight: 400;
   text-transform: capitalize;
   color: #707070;
 }
 
+.ProductItemContainer h4 {
+  margin-top: 0;
+}
+
 .ProductItemContainer p {
+  margin: 0;
   font-size: 2em;
   font-weight: 300;
   color: #cf0c1d;

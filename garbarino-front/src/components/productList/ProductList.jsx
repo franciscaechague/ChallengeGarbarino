@@ -34,7 +34,7 @@ class ProductList extends React.Component {
             <p> Agregar Producto </p>
           </div>
           <Modal show={this.state.show} handleClose={this.hideModal} >
-            <AddProduct />
+            <AddProduct onProductAdded={this.hideModal} />
           </Modal>
         </div>
       </div>
