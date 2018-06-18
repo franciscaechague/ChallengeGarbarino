@@ -58,12 +58,12 @@
   padding: 1em;
   width: 40%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
 .ButtonContainer button {
-  margin: 1em 1em 0 1em;
+  margin: 2em 1em 0 1em;
   width: 45%;
   display: flex;
   justify-content: center;

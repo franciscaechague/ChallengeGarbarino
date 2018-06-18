@@ -12,6 +12,8 @@ export const getAllProducts = () =>
       .catch(err => reject(err));
   });
 
-export const addProduct = (newProdcut) => {
-  return axiosInstance.post('/addProduct', newProduct);
+export const addProduct = (newProduct) => {
+  const product = newProduct;
+  return axiosInstance.post('/addProduct', product);
 };
+
