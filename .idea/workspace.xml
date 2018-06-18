@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83c64ea6-d5da-4ac0-b1de-ec51aa1ef430" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/garbarino-back/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/garbarino-back/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/garbarino-back/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/garbarino-back/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/garbarino-back/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/garbarino-back/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/garbarino-back/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/garbarino-back/utils/db.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/garbarino-front/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/garbarino-front/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/garbarino-front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/garbarino-front/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/garbarino-front/src/components/addProduct/AddProduct.css" beforeDir="false" afterPath="$PROJECT_DIR$/garbarino-front/src/components/addProduct/AddProduct.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/garbarino-front/src/components/addProduct/AddProduct.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/garbarino-front/src/components/addProduct/AddProduct.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/garbarino-front/src/components/productList/ProductList.css" beforeDir="false" afterPath="$PROJECT_DIR$/garbarino-front/src/components/productList/ProductList.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/garbarino-front/src/components/productList/ProductList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/garbarino-front/src/components/productList/ProductList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/garbarino-front/src/methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/garbarino-front/src/methods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,10 +17,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/garbarino-front/README.md">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+            <state relative-caret-position="429">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -82,6 +70,7 @@
         <option value="$PROJECT_DIR$/garbarino-front/src/components/addProduct/AddProduct.css" />
         <option value="$PROJECT_DIR$/garbarino-front/src/components/productList/ProductList.css" />
         <option value="$PROJECT_DIR$/garbarino-front/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -180,12 +169,12 @@
       <option name="presentableId" value="Default" />
       <updated>1528893549723</updated>
       <workItem from="1528893553692" duration="417000" />
-      <workItem from="1529272220828" duration="9219000" />
+      <workItem from="1529272220828" duration="9472000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34182000" />
+    <option name="totallyTimeSpent" value="34435000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -222,16 +211,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/garbarino-front/src/components/productList/ProductList.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/garbarino-front/src/components/searchBar/SearchBar.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -559,8 +538,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/garbarino-front/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        <state>
+          <caret selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
